@@ -1,5 +1,5 @@
 from math import floor
-from urlparse import parse_qs
+from urllib.parse import parse_qs
 from urllib import urlencode
 
 from aweber_api.base import API_BASE

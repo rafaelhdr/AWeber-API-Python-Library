@@ -1,4 +1,4 @@
-from urlparse import parse_qs
+from urllib.parse import parse_qs
 
 from aweber_api.base import (
     ACCESS_TOKEN_URL,
